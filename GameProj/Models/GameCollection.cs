@@ -3,7 +3,12 @@ namespace GameProj;
 public class GameCollection
 {
     private List<Game> _games = new List<Game>();
-    public string Name { get; set; }
+
+    public GameCollection(string name)
+    {
+        Name = name;
+    }
+    public string Name { get; }
     public int TotalGames => _games.Count;
 
     public void AddGame(Game game)
