@@ -6,7 +6,7 @@ internal class Game
     }
     public string Name { get; set; }
     public int Id { get; set; }
-
+        
     public void DisplayDetails() => Console.WriteLine($"Name: {Name}");
     
 

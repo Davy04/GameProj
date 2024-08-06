@@ -4,14 +4,24 @@ using GameProj.DB;
 
 try
 {
-    var CompanyDAL = new CompanyDAL();
-    CompanyDAL.Adicionar(new Company("Twoca", "2K é uma empresa que faz jogos de esportes desde 1900 e blau"));
-    var listaCompany = CompanyDAL.Listar();
+    var context = new GameProjContext();
+    var companyDal = new CompanyDAL(context);
+
+    var newCompany = new Company("2K", "2K é uma empresa que faz jogos de esportes desde 1900 e blau") {Id = 1002};
+    companyDal.Atualizar(newCompany);
+    
+    var listaCompany = companyDal.Listar();
+    foreach (var company in listaCompany)
+    {
+        Console.WriteLine(company);
+    }
 }
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message);
+    Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+    Console.WriteLine($"Stack Trace: {ex.StackTrace}");
 }
+
 return;
 
 Company nintendo = new Company("Nintendo", "Nintendo Game Company");
@@ -19,7 +29,7 @@ Company sony = new("Sony", "Sony Game Company");
 
 Dictionary<string, Company> registeredCompanies = new();
 registeredCompanies.Add(nintendo.Name, nintendo);
-    
+
 registeredCompanies.Add(sony.Name, sony);
 
 Dictionary<int, Menu> options = new();
@@ -62,7 +72,7 @@ void DisplayMenuOptions()
         Menu menuToDisplay = options[chosenOptionNumeric];
         menuToDisplay.Execute(registeredCompanies);
         if (chosenOptionNumeric > 0) DisplayMenuOptions();
-    } 
+    }
     else
     {
         Console.WriteLine("Invalid option");

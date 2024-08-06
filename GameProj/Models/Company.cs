@@ -13,7 +13,6 @@ internal class Company
     public string Name { get; set; }
     public string FotoPerfil { get; set; }
     public string Bio { get; set; }
-    
     public int Id { get; set; }
 
     public void AddGame(Game game)
@@ -31,7 +30,10 @@ internal class Company
 
     public override string ToString()
     {
-        return @$"Name: {Name}
+        return @$"ID: {Id}
+        Nome: {Name}
+        Foto de Perfil: {FotoPerfil}
         Bio: {Bio}";
+        
     }
 }

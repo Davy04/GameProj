@@ -8,18 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c24ba47-9ee4-402d-b669-89886d6d083a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GameProj/Menus/Menu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProj/Menus/MenuExit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProj/Menus/MenuRegisterCompany.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProj/Menus/MenuRegisterGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProj/Menus/MenuShowCompanies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProj/Menus/MenuShowGames.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProj/Models/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameProj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProj/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/Models/Company.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProj/Game.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProj/GameCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/Models/GameCollection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/GameProj/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/FileContentIndex/478ef2ad-14f4-4199-ba7a-c71f1ff6b553.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/FileContentIndex/c6932574-b80a-4358-823b-3e39dc27219f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/FileContentIndex/dbec5fc3-735b-467d-9c5b-c39f6a8a0bdd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/GameProj/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/GameProj/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/GameProj/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/GameProj/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/gameproj.metadata.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/gameproj.metadata.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/gameproj.projects.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/gameproj.projects.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProj/DB/CompanyDAL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/DB/CompanyDAL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProj/DB/Connection.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProj/GameProj.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/GameProj.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProj/Models/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/Models/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProj/Models/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/Models/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProj/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameProj/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +57,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.sqlOptions&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver&quot;
+      &quot;sqlserver&quot;,
+      &quot;sqlserver.localdb&quot;
     ],
     &quot;rider.external.source.directories&quot;: [
       &quot;C:\\Users\\davy.ramos\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
@@ -98,7 +102,16 @@
       <updated>1721164510176</updated>
       <workItem from="1721164511565" duration="8782000" />
       <workItem from="1721219330029" duration="11876000" />
-      <workItem from="1721326547831" duration="6379000" />
+      <workItem from="1721326547831" duration="6868000" />
+      <workItem from="1721334798721" duration="616000" />
+      <workItem from="1721828418859" duration="10152000" />
+      <workItem from="1722001657169" duration="833000" />
+      <workItem from="1722017038720" duration="1760000" />
+      <workItem from="1722262551523" duration="175000" />
+      <workItem from="1722272416826" duration="791000" />
+      <workItem from="1722610021818" duration="961000" />
+      <workItem from="1722904355402" duration="2810000" />
+      <workItem from="1722907225884" duration="2854000" />
     </task>
     <servers />
   </component>
